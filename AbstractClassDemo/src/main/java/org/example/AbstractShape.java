@@ -8,7 +8,8 @@ package org.example;
  * 5. 抽象类的子类必须给出抽象类中的抽象方法的具体实现，除非该子类也是抽象类。
  *
  * @see <a href="https://www.runoob.com/java/java-abstraction.html">抽象类</a>
- * @see <a href="https://www.runoob.com/w3cnote/java-abstract-interface-different.html">深入理解 Java 的接口和抽象类</a>
+ * @see <a href="https://www.runoob.com/w3cnote/java-abstract-interface-different.html">深入理解 Java
+ * 的接口和抽象类</a>
  */
 public abstract class AbstractShape {
 
