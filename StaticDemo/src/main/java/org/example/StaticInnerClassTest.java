@@ -11,7 +11,7 @@ public class StaticInnerClassTest {
 
   static int staticOuterNum = 10;
 
-  private int outerNum = 20;
+  private final int outerNum = 20;
 
   static class InnerClass {
 //    私有属性无法在类的外部直接访问
