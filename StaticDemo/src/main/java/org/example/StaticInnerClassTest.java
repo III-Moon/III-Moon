@@ -22,8 +22,8 @@ public class StaticInnerClassTest {
 
       StaticInnerClassTest staticInnerClassTest = new StaticInnerClassTest();
       //这里的this是指InnerClass内部类对象！
-      System.out.println("innerNum="+this.innerNum+",outerAge="+staticInnerClassTest.outerNum
-          +",outerNum="+StaticInnerClassTest.staticOuterNum);
+      System.out.println("innerNum=" + this.innerNum + ",outerAge=" + staticInnerClassTest.outerNum
+          + ",outerNum=" + StaticInnerClassTest.staticOuterNum);
     }
   }
 }

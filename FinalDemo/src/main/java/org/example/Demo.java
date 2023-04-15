@@ -42,15 +42,15 @@ class Demo3 {
 
   private String name;
 
+  public Demo3(String name) {
+    this.name = name;
+  }
+
   public String getName() {
     return name;
   }
 
   public void setName(String name) {
-    this.name = name;
-  }
-
-  public Demo3(String name) {
     this.name = name;
   }
 }

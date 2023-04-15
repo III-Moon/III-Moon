@@ -12,8 +12,6 @@ public class StaticContextTest {
 
   static int num = 1;
 
-  private int num2 = 10;
-
   static {
     System.out.println("Static context num: " + ++num);
 //    !!Non-static field 'num2' cannot be referenced from a static context
@@ -25,6 +23,8 @@ public class StaticContextTest {
 //    !!Non-static field 'num2' cannot be referenced from a static context
 //    System.out.println(num2++);
   }
+
+  private int num2 = 10;
 
   {
     System.out.println("Normal context num: " + ++num);

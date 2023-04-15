@@ -17,9 +17,9 @@ public class Main {
     innerClass.printNum();
 
     //访问外部类属性
-    System.out.println("outerNum="+StaticInnerClassTest.staticOuterNum);
+    System.out.println("outerNum=" + StaticInnerClassTest.staticOuterNum);
 
     //访问内部类属性
-    System.out.println("innerNum="+innerClass.innerNum);
+    System.out.println("innerNum=" + innerClass.innerNum);
   }
 }
