@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.StaticInnerClassTest.NonStaticInnerClass;
+
 public class Main {
 
   public static void main(String[] args) {
@@ -15,6 +17,10 @@ public class Main {
     StaticInnerClassTest.InnerClass innerClass = new StaticInnerClassTest.InnerClass();
 //    调用内部类函数方法
     innerClass.printNum();
+
+//    非静态内部类，需要先实例化父对象
+    StaticInnerClassTest staticInnerClassTest = new StaticInnerClassTest();
+    NonStaticInnerClass nonStaticInnerClass = staticInnerClassTest.new NonStaticInnerClass();
 
     //访问外部类属性
     System.out.println("outerNum=" + StaticInnerClassTest.staticOuterNum);

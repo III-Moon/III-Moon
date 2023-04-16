@@ -26,4 +26,12 @@ public class StaticInnerClassTest {
           + ",outerNum=" + StaticInnerClassTest.staticOuterNum);
     }
   }
+
+  class NonStaticInnerClass {
+
+    void test() {
+      System.out.println("nonStaticInnerClass");
+    }
+  }
+
 }
