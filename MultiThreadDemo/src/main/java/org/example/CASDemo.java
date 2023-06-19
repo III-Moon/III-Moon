@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -5,7 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class CASDemo {
 
     // 创建一个Integer类型的原子类
-    private static AtomicInteger count = new AtomicInteger(0);
+    private static final AtomicInteger count = new AtomicInteger(0);
 
     public static void main(String[] args) {
         List<Thread> threadList = new ArrayList<>(10);
